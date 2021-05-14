@@ -1,3 +1,5 @@
-n1 = input('Inserisci un numero: ')
-n2 = input('Inserisci un altro numero')
-print('La loro somma è:', int(n1) + int(n2))
+s=0
+n = int(input('Quanti numeri vuoi sommare?: '))
+for i in range(n):
+    s += int(input('Inserisci un numero: '))
+print('La loro somma è:',s)
